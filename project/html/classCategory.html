@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>课程分类</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../lib/layui/css/layui.css">
+    <link rel="stylesheet" href="../css/classCategory.css">
+    <script src="../lib/jquery.js"></script>
+    <script src="../js/classCategory.js"></script>
+</head>
+
+<body>
+    <!-- header区域 -->
+    <header>
+        <li>
+            <img src="../images/logo.png" alt="">
+        </li>
+        <li>课&nbsp&nbsp程&nbsp&nbsp分&nbsp&nbsp类</li>
+    </header>
+    <!-- body区域 -->
+    <div class="mainBody">
+        <!-- 左侧选择栏 -->
+        <div class="categoryList">
+            <a href="../html/first-page.html" target="fm" class="whiteColor">前端</a>
+            <a href="../html/second-page.html" target="fm">微信小程序</a>
+            <a href="../html/third-page.html" target="fm">Vue.js</a>
+            <a href="../html/fourth-page.html" target="fm">移动web开发</a>
+            <a href="../html/fifth-page.html" target="fm">bootstrap</a>
+            <a href="../html/sixth-page.html" target="fm">Node.js</a>
+        </div>
+        <!-- 右侧内容栏 -->
+        <div class="content">
+            <iframe name="fm" id='fm' src="../html/first-page.html" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </div>
+    <!-- 底部区域 -->
+    <footer>
+        <!-- 首页 -->
+        <div id="home">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-home" style="font-size: 30px; color: #1E9FFF;"></i>
+            </a>
+            <a href="javascript:;">
+                <h2>首页</h2>
+            </a>
+        </div>
+        <!-- 分类 -->
+        <div id="toCategory">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-app" style="font-size: 30px; color: #1E9FFF;"></i>
+            </a>
+            <a href="javascript:;">
+                <h2>分类</h2>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

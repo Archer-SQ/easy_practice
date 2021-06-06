@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/page/first-page.css">
+    <script src="../lib/jquery.js"></script>
+    <script src="../js/template-web.js"></script>
+    <script src="../js/page/first-page.js"></script>
+</head>
+
+<body>
+    <section>
+        <!-- 就业班 -->
+        <div>
+            <div class="profession">
+                就业班
+            </div>
+            <div class="contentPro">
+                web前端在线就业班
+            </div>
+        </div>
+        <!-- 提高课 -->
+        <div>
+            <div class="profession">
+                提高课
+            </div>
+            <div class="categoryPro"></div>
+        </div>
+    </section>
+    <!-- 提高课模板区域 -->
+    <script type="text/html" id="tp-categoryPro">
+        {{each data}}<a href="javascript:;">{{$value.name}}</a> {{/each}}
+    </script>
+</body>
+
+</html>

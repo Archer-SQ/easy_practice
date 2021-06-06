@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    margin-left: 17px;
+    margin-right: 5px;
+}
+
+
+/* 就业班 */
+
+.profession {
+    height: 50px;
+    margin: 12px 0;
+    font: 30px/50px "Microsoft Yahei";
+    color: #28abfc;
+}
+
+.contentPro {
+    height: 150px;
+    border-radius: 10px;
+    background: url('../../images/web_fe.png') center center no-repeat;
+    background-size: cover;
+    font: 30px/150px "Microsoft Yahei";
+    text-align: center;
+    color: #fff;
+}
+
+
+/* 提高课 */
+
+.categoryPro {
+    margin-left: 10px;
+}
+
+.categoryPro a {
+    display: inline-block;
+    height: 80px;
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+    padding: 5px 15px;
+    margin: 10px 10px 10px 0;
+    font: 45px/80px "Microsoft Yahei";
+    color: #c0c0c0;
+}
